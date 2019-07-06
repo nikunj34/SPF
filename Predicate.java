@@ -136,7 +136,7 @@ class Seed{
                 String str = verb_name + " :- " + "(S\\NP)/NP" + " : " + "(lambda $0:e (lambda $1:e (" + col_pred2 + " $0 $1)))";
                 seed_verb.add(str);
                 
-                str = verb_name + " :- " + "NP/NP" + " : " + "(lambda $0:e (" + col_name + ":" + col_pred1 + " $0))";
+                str = verb_name + " :- " + "NP/NP" + " : " + "(lambda $0:e (" + col_pred1 + " $0))";
                 seed_verb.add(str);
                 break;
                 
