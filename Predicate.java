@@ -115,8 +115,8 @@ class NpList{
 		String str = value + " :- " + pos_tag + " : " + col_value + ":" + c_type;
 		this.np_list.add(str);
 		str = "";
-		str = value + " :- " + pos_tag + " : " + "pkey_retriever:<c_type,ptype> " + value + ":" + ptype;
-		this.np_list.add(str);
+		//str = value + " :- " + pos_tag + " : " + "pkey_retriever:<c_type,ptype> " + value + ":" + ptype;
+		//this.np_list.add(str);
     }
 }
 
