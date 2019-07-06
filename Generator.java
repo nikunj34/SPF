@@ -233,7 +233,7 @@ public class Generator {
 						ctype = (String)TrackConstant.get(prefix);
 						prefix = org_prefix;
 						
-						np_file.NpGenerator(prefix, ctype, ValueList.get(k), PosTag,ptype);
+						np_file.NpGenerator(prefix, ctype, ValueList.get(l), PosTag,ptype);
 					}
 					
 					for(int l=0; l<Postfix.size(); l++) {
@@ -244,7 +244,7 @@ public class Generator {
 						ctype = (String)TrackConstant.get(postfix);
 						postfix = org_postfix;
 						
-						np_file.NpGenerator(postfix, ctype, ValueList.get(k), PosTag,ptype);
+						np_file.NpGenerator(postfix, ctype, ValueList.get(l), PosTag,ptype);
 					}
 					
 				}
