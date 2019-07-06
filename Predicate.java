@@ -110,9 +110,12 @@ class NpList{
     
     ArrayList<String> np_list = new ArrayList<String>();
     
-    public void NpGenerator(String value, String col_value, String c_type, String pos_tag) {
+    public void NpGenerator(String value, String col_value, String c_type, String pos_tag, String ptype) {
     
 		String str = value + " :- " + pos_tag + " : " + col_value + ":" + c_type;
+		this.np_list.add(str);
+		str = "";
+		str = value + " :- " + pos_tag + " : " + "pkey_returner:<c_type,ptype> " + col_value + ":" + ptype;
 		this.np_list.add(str);
     }
 }
@@ -190,6 +193,23 @@ class Seed{
                 str = name + " :- " + "(S\\NP)/NP" + " : " + "(lambda $0:e (lambda $1:e (" + pred + " $1 $0)))";
                 seed_col.add(str);
                 break;
+            case "type4":
+            	
+                pred = name + ":";
+                for(int i=0; i<ptype.size(); i++) {
+                
+                    String s = "<" + ptype.get(i) + ",";
+                    pred += s;
+                }
+                pred += "< t," + ctype + ">";
+                for(int i=0; i<ptype.size(); i++) {
+                    
+                    pred += ">";
+                }
+            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + "$1" + "$0($1)";   
+            	seed_col.add(str);
+            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + "$1" + "$0($1)";
+            	seed_col.add(str);
          }
     }
     
@@ -231,8 +251,13 @@ class Seed{
     	String entry = "";
     	entry += prep + " :- PP/NP : (lambda $0:e (" + pred1 + " $0))";//returns pkey, may be not required
     	seed_prep.add(entry);
+		entry = "";
+		entry += prep + " :- PP/NP : (lambda $0:<e,e> (" + pred1 + " $0))";
+    	seed_prep.add(entry);
     	entry = "";
         entry += prep + " :- PP/NP : (lambda $0:e (lambda $1:"+ ptype + " (" + pred2 + " $1 $0)))";//here type 4 will be used
+        entry = "";
+        entry += prep + " :- PP/NP : (lambda $0:<e,e> (lambda $1:"+ ptype + " (" + pred2 + " $1 $0)))";
         seed_prep.add(entry);
     }
     
