@@ -115,7 +115,7 @@ class NpList{
 		String str = value + " :- " + pos_tag + " : " + col_value + ":" + c_type;
 		this.np_list.add(str);
 		str = "";
-		str = value + " :- " + pos_tag + " : " + "pkey_returner:<c_type,ptype> " + col_value + ":" + ptype;
+		str = value + " :- " + pos_tag + " : " + "pkey_retriever:<c_type,ptype> " + value + ":" + ptype;
 		this.np_list.add(str);
     }
 }
@@ -201,14 +201,14 @@ class Seed{
                     String s = "<" + ptype.get(i) + ",";
                     pred += s;
                 }
-                pred += "< t," + ctype + ">";
+                pred += "<t," + ctype + ">";
                 for(int i=0; i<ptype.size(); i++) {
                     
                     pred += ">";
                 }
-            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + "$1" + "$0($1)";   
+            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "$0($1))))";   
             	seed_col.add(str);
-            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + "$1" + "$0($1)";
+            	str = name + " :- " + "NP/(S\\NP) : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "$0($1))))";
             	seed_col.add(str);
          }
     }
