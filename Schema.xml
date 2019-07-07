@@ -339,6 +339,12 @@
 	                <Synonym>
 	                    <synonym>rivers</synonym>
 	                    <synonym>the river</synonym>
+<synonym>flow</synonym>
+<synonym>flows</synonym>
+<synonym>runs</synonym>
+<synonym>run</synonym>
+<synonym>cross_over</synonym>
+
 	                </Synonym>
 	                <VerbList>
 	                    <verb>
@@ -663,7 +669,7 @@
                     <Postfix>
                     </Postfix>
                     <Synonym>
-                        
+                       <synonym>live</synonym> 
                     </Synonym>
                     <VerbList>
                         <verb>
@@ -844,7 +850,10 @@
 	                    <synonym>states</synonym>
 	                    <synonym>the state</synonym>
 	                    <synonym>next_to</synonym>
-	                    
+<synonym>border</synonym>
+<synonym>neighbor</synonym>
+<synonym>borders</synonym>
+<synonym>neighbors</synonym>	                    
 	                </Synonym>
 	                <VerbList>
 	                    <verb><VerbName>borders</VerbName>
