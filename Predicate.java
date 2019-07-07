@@ -212,9 +212,9 @@ class Seed{
                     
                     pred += ">";
                 }
-            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "$0($1))))";   
+            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "($0 $1))))";   
             	seed_col.add(str);
-            	str = name + " :- " + "NP/(S\\NP) : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "$0($1))))";
+            	str = name + " :- " + "NP/(S\\NP) : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "($0 $1))))";
             	seed_col.add(str);
          }
     }
