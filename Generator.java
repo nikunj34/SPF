@@ -372,6 +372,7 @@ public class Generator {
 					//System.out.println(s4);
 					seed_file.synGenerator(s1,s5,s2,s4,"type2");
 					seed_file.synGenerator(s1,s5,s2,s4,"type3");
+					seed_file.synGenerator(s1,s5,s2,s4,"type4");
 					if((s.RelationList.get(i).ColumnList.get(j).VarType).equals("Category")) {
 						seed_file.synGenerator(s1,s5,s2,s4,"type1");
 					}
