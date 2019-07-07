@@ -348,6 +348,14 @@
                         <verb>
                             <VerbName>have</VerbName>
                             <VerbType>transitive</VerbType>
+			    <VerbName>flow</VerbName>
+                            <VerbType>transitive</VerbType>
+		            <VerbName>flows</VerbName>
+                            <VerbType>transitive</VerbType>
+			    <VerbName>run</VerbName>
+                            <VerbType>transitive</VerbType>
+			    <VerbName>runs</VerbName>
+                            <VerbType>transitive</VerbType>
                         </verb>
 	                </VerbList>
 	                <AdjectiveList>
@@ -553,6 +561,7 @@
 	                <VarType>category</VarType>
 	                <Prefix>
                         <prefix>the</prefix>
+			<prefix>city named</prefix>
 	                </Prefix>
 	                <Postfix>
 	                </Postfix>
@@ -781,18 +790,7 @@
 	                    <synonym>next_to</synonym>
 	                </Synonym>
 	                <VerbList>
-	                    <verb><VerbName>borders</VerbName>
-                            <VerbType>transitive</VerbType></verb>
-	                    <verb><VerbName>bordering</VerbName>
-                            <VerbType>transitive</VerbType></verb>
-	                    <verb><VerbName>border</VerbName>
-                            <VerbType>transitive</VerbType></verb>
-	                    <verb><VerbName>surrounds</VerbName>
-                            <VerbType>transitive</VerbType></verb>
-	                    <verb><VerbName>surrounding</VerbName>
-                            <VerbType>transitive</VerbType></verb>
-	                    <verb><VerbName>surround</VerbName>
-                            <VerbType>transitive</VerbType></verb>
+	       
 	                </VerbList>
 	                <AdjectiveList>
 	                </AdjectiveList>
@@ -819,9 +817,9 @@
 	                    <value>7</value>
 	                    <value>8</value>
 	                </ValueList>    
-	                <Name>state</Name>
+	                <Name>next_to</Name>
 	                <PosTag>NP</PosTag>
-	                <Type>state</Type>
+	                <Type>state_prime</Type>
 	                <VarType>category</VarType>
 	                <Prefix>
                         <prefix>the</prefix>

@@ -54,7 +54,7 @@ state:<s_pkey,t>
 state:<b_pkey,s_pkey>
 state:<b_pkey,<s_pkey,t>>
 state:<b_pkey,<t,s_pkey>>
-state:<s,t>
-state:<b_pkey,s>
-state:<b_pkey,<s,t>>
-state:<b_pkey,<t,s>>
+next_to:<s_pkey,t>
+next_to:<b_pkey,s_pkey>
+next_to:<b_pkey,<s_pkey,t>>
+next_to:<b_pkey,<t,s_pkey>>
