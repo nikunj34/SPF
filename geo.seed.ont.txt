@@ -305,295 +305,295 @@ of :- PP/NP : (lambda $0:<e,e> (lambda $1:b_pkey (lambda $2:e (set_retriever:<b_
 is :- PP/NP : (lambda $0:e (pkey_retriever:<s,b_pkey> $0))
 is :- PP/NP : (lambda $0:<e,e> (lambda $1:e (pkey_retriever:<s,b_pkey> ($0 $1))))
 is :- PP/NP : (lambda $0:<e,e> (lambda $1:b_pkey (lambda $2:e (set_retriever:<b_pkey,<s,t>> $1 ($0 $2)))))
-maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-madhya pradesh :- NP : (pkey_retriever:<s,s_pkey> madhya pradesh):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-rajasthan :- NP : (pkey_retriever:<s,s_pkey> rajasthan):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-jharkhand :- NP : (pkey_retriever:<s,s_pkey> jharkhand):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-uttar pradesh :- NP : (pkey_retriever:<s,s_pkey> uttar pradesh):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-uttrakhand :- NP : (pkey_retriever:<s,s_pkey> uttrakhand):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-bihar :- NP : (pkey_retriever:<s,s_pkey> bihar):s_pkey
-the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana):s_pkey
-maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra):s_pkey
-1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-2 :- NP : (pkey_retriever:<s,s_pkey> 2):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-3 :- NP : (pkey_retriever:<s,s_pkey> 3):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-4 :- NP : (pkey_retriever:<s,s_pkey> 4):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-5 :- NP : (pkey_retriever:<s,s_pkey> 5):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-6 :- NP : (pkey_retriever:<s,s_pkey> 6):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-7 :- NP : (pkey_retriever:<s,s_pkey> 7):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-8 :- NP : (pkey_retriever:<s,s_pkey> 8):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-9 :- NP : (pkey_retriever:<s,s_pkey> 9):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-10 :- NP : (pkey_retriever:<c,s_pkey> 10):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-11 :- NP : (pkey_retriever:<c,s_pkey> 11):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-12 :- NP : (pkey_retriever:<c,s_pkey> 12):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-13 :- NP : (pkey_retriever:<c,s_pkey> 13):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-14 :- NP : (pkey_retriever:<c,s_pkey> 14):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-15 :- NP : (pkey_retriever:<c,s_pkey> 15):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-16 :- NP : (pkey_retriever:<c,s_pkey> 16):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-17 :- NP : (pkey_retriever:<c,s_pkey> 17):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-18 :- NP : (pkey_retriever:<c,s_pkey> 18):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-19 :- NP : (pkey_retriever:<c,s_pkey> 19):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-20 :- NP : (pkey_retriever:<c,s_pkey> 20):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-21 :- NP : (pkey_retriever:<c,s_pkey> 21):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-22 :- NP : (pkey_retriever:<c,s_pkey> 22):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-23 :- NP : (pkey_retriever:<c,s_pkey> 23):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-24 :- NP : (pkey_retriever:<c,s_pkey> 24):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-25 :- NP : (pkey_retriever:<c,s_pkey> 25):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-26 :- NP : (pkey_retriever:<c,s_pkey> 26):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-27 :- NP : (pkey_retriever:<c,s_pkey> 27):s_pkey
-the 1 :- NP : (pkey_retriever:<s,s_pkey> 1):s_pkey
-city 2 :- NP : (pkey_retriever:<c,s_pkey> 2):s_pkey
-the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-the 100 :- N : (pkey_retriever:<i,s_pkey> 100):s_pkey
-ganga :- NP : (pkey_retriever:<r,r_pkey> ganga):r_pkey
-the ganga :- NP : (pkey_retriever:<r,r_pkey> ganga):r_pkey
-jamuna :- NP : (pkey_retriever:<r,r_pkey> jamuna):r_pkey
-the ganga :- NP : (pkey_retriever:<r,r_pkey> ganga):r_pkey
-1 :- NP : (pkey_retriever:<s,r_pkey> 1):r_pkey
-the 1 :- NP : (pkey_retriever:<s,r_pkey> 1):r_pkey
-2 :- NP : (pkey_retriever:<s,r_pkey> 2):r_pkey
-the 1 :- NP : (pkey_retriever:<s,r_pkey> 1):r_pkey
-500 :- NP : (pkey_retriever:<i,r_pkey> 500):r_pkey
-the 500 :- NP : (pkey_retriever:<i,r_pkey> 500):r_pkey
-500 :- NP : (pkey_retriever:<i,r_pkey> 500):r_pkey
-the 500 :- NP : (pkey_retriever:<i,r_pkey> 500):r_pkey
-aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-mumbai :- NP : (pkey_retriever:<c,c_pkey> mumbai):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-jalgaon :- NP : (pkey_retriever:<c,c_pkey> jalgaon):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-bhusawal :- NP : (pkey_retriever:<c,c_pkey> bhusawal):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-nagpur :- NP : (pkey_retriever:<c,c_pkey> nagpur):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-kurukshetra :- NP : (pkey_retriever:<c,c_pkey> kurukshetra):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-gurgaon :- NP : (pkey_retriever:<c,c_pkey> gurgaon):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-chandigarh :- NP : (pkey_retriever:<c,c_pkey> chandigarh):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-ranchi :- NP : (pkey_retriever:<c,c_pkey> ranchi):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-deoghar :- NP : (pkey_retriever:<c,c_pkey> deoghar):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-kanpur :- NP : (pkey_retriever:<c,c_pkey> kanpur):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-noida :- NP : (pkey_retriever:<c,c_pkey> noida):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-luckhnow :- NP : (pkey_retriever:<c,c_pkey> luckhnow):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-kota :- NP : (pkey_retriever:<c,c_pkey> kota):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-jaipur :- NP : (pkey_retriever:<c,c_pkey> jaipur):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-jodhpur :- NP : (pkey_retriever:<c,c_pkey> jodhpur):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-bhopal :- NP : (pkey_retriever:<c,c_pkey> bhopal):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-khandwa :- NP : (pkey_retriever:<c,c_pkey> khandwa):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-katni :- NP : (pkey_retriever:<c,c_pkey> katni):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-reewa :- NP : (pkey_retriever:<c,c_pkey> reewa):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-dehradun :- NP : (pkey_retriever:<c,c_pkey> dehradun):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-rishikesh :- NP : (pkey_retriever:<c,c_pkey> rishikesh):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-nainital :- NP : (pkey_retriever:<c,c_pkey> nainital):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-mussoorie :- NP : (pkey_retriever:<c,c_pkey> mussoorie):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-patna :- NP : (pkey_retriever:<c,c_pkey> patna):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-darbhanga :- NP : (pkey_retriever:<c,c_pkey> darbhanga):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad):c_pkey
-1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-2 :- NP : (pkey_retriever:<s,c_pkey> 2):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-3 :- NP : (pkey_retriever:<s,c_pkey> 3):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-4 :- NP : (pkey_retriever:<s,c_pkey> 4):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-5 :- NP : (pkey_retriever:<s,c_pkey> 5):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-6 :- NP : (pkey_retriever:<s,c_pkey> 6):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-7 :- NP : (pkey_retriever:<s,c_pkey> 7):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-8 :- NP : (pkey_retriever:<s,c_pkey> 8):c_pkey
-the 1 :- NP : (pkey_retriever:<s,c_pkey> 1):c_pkey
-500 :- NP : (pkey_retriever:<i,c_pkey> 500):c_pkey
-the 500 :- NP : (pkey_retriever:<i,c_pkey> 500):c_pkey
-500 :- NP : (pkey_retriever:<i,c_pkey> 500):c_pkey
-the 500 :- NP : (pkey_retriever:<i,c_pkey> 500):c_pkey
-1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-2 :- NP : (pkey_retriever:<s,b_pkey> 2):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-3 :- NP : (pkey_retriever:<s,b_pkey> 3):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-4 :- NP : (pkey_retriever:<s,b_pkey> 4):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-5 :- NP : (pkey_retriever:<s,b_pkey> 5):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-6 :- NP : (pkey_retriever:<s,b_pkey> 6):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-7 :- NP : (pkey_retriever:<s,b_pkey> 7):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-8 :- NP : (pkey_retriever:<s,b_pkey> 8):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-9 :- NP : (pkey_retriever:<s,b_pkey> 9):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-2 :- NP : (pkey_retriever:<s,b_pkey> 2):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-3 :- NP : (pkey_retriever:<s,b_pkey> 3):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-4 :- NP : (pkey_retriever:<s,b_pkey> 4):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-5 :- NP : (pkey_retriever:<s,b_pkey> 5):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-6 :- NP : (pkey_retriever:<s,b_pkey> 6):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-7 :- NP : (pkey_retriever:<s,b_pkey> 7):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
-8 :- NP : (pkey_retriever:<s,b_pkey> 8):b_pkey
-the 1 :- NP : (pkey_retriever:<s,b_pkey> 1):b_pkey
+maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+madhya pradesh :- NP : (pkey_retriever:<s,s_pkey> madhya pradesh)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+rajasthan :- NP : (pkey_retriever:<s,s_pkey> rajasthan)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+jharkhand :- NP : (pkey_retriever:<s,s_pkey> jharkhand)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+uttar pradesh :- NP : (pkey_retriever:<s,s_pkey> uttar pradesh)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+uttrakhand :- NP : (pkey_retriever:<s,s_pkey> uttrakhand)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+bihar :- NP : (pkey_retriever:<s,s_pkey> bihar)
+the maharashtra :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+the state of haryana :- NP : (pkey_retriever:<s,s_pkey> haryana)
+maharashtra state :- NP : (pkey_retriever:<s,s_pkey> maharashtra)
+1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+2 :- NP : (pkey_retriever:<s,s_pkey> 2)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+3 :- NP : (pkey_retriever:<s,s_pkey> 3)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+4 :- NP : (pkey_retriever:<s,s_pkey> 4)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+5 :- NP : (pkey_retriever:<s,s_pkey> 5)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+6 :- NP : (pkey_retriever:<s,s_pkey> 6)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+7 :- NP : (pkey_retriever:<s,s_pkey> 7)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+8 :- NP : (pkey_retriever:<s,s_pkey> 8)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+9 :- NP : (pkey_retriever:<s,s_pkey> 9)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+10 :- NP : (pkey_retriever:<c,s_pkey> 10)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+11 :- NP : (pkey_retriever:<c,s_pkey> 11)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+12 :- NP : (pkey_retriever:<c,s_pkey> 12)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+13 :- NP : (pkey_retriever:<c,s_pkey> 13)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+14 :- NP : (pkey_retriever:<c,s_pkey> 14)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+15 :- NP : (pkey_retriever:<c,s_pkey> 15)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+16 :- NP : (pkey_retriever:<c,s_pkey> 16)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+17 :- NP : (pkey_retriever:<c,s_pkey> 17)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+18 :- NP : (pkey_retriever:<c,s_pkey> 18)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+19 :- NP : (pkey_retriever:<c,s_pkey> 19)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+20 :- NP : (pkey_retriever:<c,s_pkey> 20)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+21 :- NP : (pkey_retriever:<c,s_pkey> 21)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+22 :- NP : (pkey_retriever:<c,s_pkey> 22)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+23 :- NP : (pkey_retriever:<c,s_pkey> 23)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+24 :- NP : (pkey_retriever:<c,s_pkey> 24)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+25 :- NP : (pkey_retriever:<c,s_pkey> 25)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+26 :- NP : (pkey_retriever:<c,s_pkey> 26)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+27 :- NP : (pkey_retriever:<c,s_pkey> 27)
+the 1 :- NP : (pkey_retriever:<s,s_pkey> 1)
+city 2 :- NP : (pkey_retriever:<c,s_pkey> 2)
+the city of 3 :- NP : (pkey_retriever:<c,s_pkey> 3)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+100 :- N : (pkey_retriever:<i,s_pkey> 100)
+the 100 :- N : (pkey_retriever:<i,s_pkey> 100)
+ganga :- NP : (pkey_retriever:<r,r_pkey> ganga)
+the ganga :- NP : (pkey_retriever:<r,r_pkey> ganga)
+jamuna :- NP : (pkey_retriever:<r,r_pkey> jamuna)
+the ganga :- NP : (pkey_retriever:<r,r_pkey> ganga)
+1 :- NP : (pkey_retriever:<s,r_pkey> 1)
+the 1 :- NP : (pkey_retriever:<s,r_pkey> 1)
+2 :- NP : (pkey_retriever:<s,r_pkey> 2)
+the 1 :- NP : (pkey_retriever:<s,r_pkey> 1)
+500 :- NP : (pkey_retriever:<i,r_pkey> 500)
+the 500 :- NP : (pkey_retriever:<i,r_pkey> 500)
+500 :- NP : (pkey_retriever:<i,r_pkey> 500)
+the 500 :- NP : (pkey_retriever:<i,r_pkey> 500)
+aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+mumbai :- NP : (pkey_retriever:<c,c_pkey> mumbai)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+jalgaon :- NP : (pkey_retriever:<c,c_pkey> jalgaon)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+bhusawal :- NP : (pkey_retriever:<c,c_pkey> bhusawal)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+nagpur :- NP : (pkey_retriever:<c,c_pkey> nagpur)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+kurukshetra :- NP : (pkey_retriever:<c,c_pkey> kurukshetra)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+gurgaon :- NP : (pkey_retriever:<c,c_pkey> gurgaon)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+chandigarh :- NP : (pkey_retriever:<c,c_pkey> chandigarh)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+ranchi :- NP : (pkey_retriever:<c,c_pkey> ranchi)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+deoghar :- NP : (pkey_retriever:<c,c_pkey> deoghar)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+kanpur :- NP : (pkey_retriever:<c,c_pkey> kanpur)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+noida :- NP : (pkey_retriever:<c,c_pkey> noida)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+luckhnow :- NP : (pkey_retriever:<c,c_pkey> luckhnow)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+kota :- NP : (pkey_retriever:<c,c_pkey> kota)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+jaipur :- NP : (pkey_retriever:<c,c_pkey> jaipur)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+jodhpur :- NP : (pkey_retriever:<c,c_pkey> jodhpur)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+bhopal :- NP : (pkey_retriever:<c,c_pkey> bhopal)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+khandwa :- NP : (pkey_retriever:<c,c_pkey> khandwa)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+katni :- NP : (pkey_retriever:<c,c_pkey> katni)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+reewa :- NP : (pkey_retriever:<c,c_pkey> reewa)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+dehradun :- NP : (pkey_retriever:<c,c_pkey> dehradun)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+rishikesh :- NP : (pkey_retriever:<c,c_pkey> rishikesh)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+nainital :- NP : (pkey_retriever:<c,c_pkey> nainital)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+mussoorie :- NP : (pkey_retriever:<c,c_pkey> mussoorie)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+patna :- NP : (pkey_retriever:<c,c_pkey> patna)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+darbhanga :- NP : (pkey_retriever:<c,c_pkey> darbhanga)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+the aurangabad :- NP : (pkey_retriever:<c,c_pkey> aurangabad)
+1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+2 :- NP : (pkey_retriever:<s,c_pkey> 2)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+3 :- NP : (pkey_retriever:<s,c_pkey> 3)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+4 :- NP : (pkey_retriever:<s,c_pkey> 4)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+5 :- NP : (pkey_retriever:<s,c_pkey> 5)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+6 :- NP : (pkey_retriever:<s,c_pkey> 6)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+7 :- NP : (pkey_retriever:<s,c_pkey> 7)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+8 :- NP : (pkey_retriever:<s,c_pkey> 8)
+the 1 :- NP : (pkey_retriever:<s,c_pkey> 1)
+500 :- NP : (pkey_retriever:<i,c_pkey> 500)
+the 500 :- NP : (pkey_retriever:<i,c_pkey> 500)
+500 :- NP : (pkey_retriever:<i,c_pkey> 500)
+the 500 :- NP : (pkey_retriever:<i,c_pkey> 500)
+1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+2 :- NP : (pkey_retriever:<s,b_pkey> 2)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+3 :- NP : (pkey_retriever:<s,b_pkey> 3)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+4 :- NP : (pkey_retriever:<s,b_pkey> 4)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+5 :- NP : (pkey_retriever:<s,b_pkey> 5)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+6 :- NP : (pkey_retriever:<s,b_pkey> 6)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+7 :- NP : (pkey_retriever:<s,b_pkey> 7)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+8 :- NP : (pkey_retriever:<s,b_pkey> 8)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+9 :- NP : (pkey_retriever:<s,b_pkey> 9)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+2 :- NP : (pkey_retriever:<s,b_pkey> 2)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+3 :- NP : (pkey_retriever:<s,b_pkey> 3)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+4 :- NP : (pkey_retriever:<s,b_pkey> 4)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+5 :- NP : (pkey_retriever:<s,b_pkey> 5)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+6 :- NP : (pkey_retriever:<s,b_pkey> 6)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+7 :- NP : (pkey_retriever:<s,b_pkey> 7)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
+8 :- NP : (pkey_retriever:<s,b_pkey> 8)
+the 1 :- NP : (pkey_retriever:<s,b_pkey> 1)
