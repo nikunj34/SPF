@@ -1,0 +1,43 @@
+what is the population of mumbai
+(population:<c_pkey,i> (pkey_retriever:<c,c_pkey> mumbai:c))
+city in maharashtra
+(city:<c_pkey,c> (pkey_retriever:<s_pkey,c_pkey> (pkey_retriever:<s,s_pkey> maharashtra:s)))
+largest city in maharashtra by area
+(argmax:<<e,t>,<<e,i>,e>> (lambda $0:e (and:<t*,t> (city:<c_pkey,t> $0) (set_retriever:<c_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> maharashtra:s)))) (lambda $1:e (area:<c_pkey,i> $1)))
+area of the largest city in haryana
+(area:<c_pkey,i> (argmax:<<e,t>,<<e,i>,e>> (lambda $0:e (and:<t*,t> (city:<c_pkey,t> $0) (set_retriever:<c_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> maharashtra:s)))) (lambda $1:e (area:<c_pkey,i> $1))))
+population of maharashtra
+(population:<s_pkey,i> (pkey_retriever:<s,s_pkey> maharashtra:s))
+area of maharashtra
+(area:<s_pkey,i> (pkey_retriever:<s,s_pkey> maharashtra:s))
+how large is the largest city in haryana
+(area:<c_pkey,i> (argmax:<<e,t>,<<e,i>,e>> (lambda $0:e (and:<t*,t> (city:<c_pkey,t> $0) (set_retriever:<c_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> maharashtra:s)))) (lambda $1:e (area:<c_pkey,i> $1))))
+which states border rajasthan
+(lambda $0:e (state:<b_pkey,<t,s_pkey>> $0 (next_to:<b_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> rajasthan:s))))
+how many states have cities named auragabad
+(count:<<e,e>,i> (lambda $0:e state<c_pkey,<t,s>> $0 (city<c_pkey,<c,t>> $0 aurangabad:c)))
+what states neighbor jharkhand
+(lambda $0:e (state:<b_pkey,<t,s_pkey>> $0 (next_to:<b_key,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> jharkhand:s))))
+population of kota
+(population:<c_key,i> (pkey_retriever<c,c_pkey> kota:c))
+how many citizens live in jaipur
+(population:<s_pkey,i> (pkey_retriever<s,s_pkey> jaipur:c))
+how many cities are in haryana
+(count:<<e,e>,i> (city:<c_pkey,c> (pkey_retriever:<s_pkey,c_pkey> (pkey_retriever:<s,s_pkey> haryana:s))))
+how many rivers are in maharashtra
+(count:<<e,e>,i> (river:<r_pkey,r> (pkey_retriever:<s_pkey,r_pkey> (pkey_retriever:<s,s_pkey> maharashtra:s))))
+what rivers flow through haryana
+(lambda $0:e (river:<r_pkey,<t,r>> $0 (state:<r_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> haryana:s))))
+what is the river that cross over madhya_pradesh
+(lambda $0:e river:<pkey,<t,r>> $0 (state:<r_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> madhya_pradesh:s)))
+which states border haryana
+(lambda $0:e (state:<b_pkey,<t,s_pkey>> $0 (next_to:<b_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> haryana:s))))
+what is the area of mumbai
+(area:<c_pkey,i> (pkey_retriever:<c,c_pkey> mumbai:c))
+what is the biggest city in maharashtra
+(argmax:<<e,t>,<<e,i>,e>> (lambda $0:e (and:<t*,t> (city:<c_pkey,t> $0) (set_retriever:<c_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> maharashtra:s)))) (lambda $1:e (size:<c_pkey,i> $1)))
+what are the populations of the states through which the ganga river run
+(lambda $0:e population:<s_pkey,i> (state<r_pkey,<t,s_pkey>> $0 (river<r_pkey,<r,t>> $0 ganga:r)))
+what rivers flow through uttrakhand
+(lambda $0:e (river:<r_pkey,<t,r>> $0 (city:<r_pkey,<s_pkey,t>> $0 (pkey_retriever:<s,s_pkey> uttrakhand:s))))
+
