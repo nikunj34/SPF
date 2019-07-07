@@ -308,7 +308,7 @@ public class Generator {
 				for(int k=0;k<s.RelationList.get(i).ColumnList.get(j).AdjectiveList.size();k++) {
 					s1 = s.RelationList.get(i).ColumnList.get(j).AdjectiveList.get(k).name;
 					s2 = s.RelationList.get(i).ColumnList.get(j).AdjectiveList.get(k).level;
-					s3 = (pred_file.pred_dict.get(s.RelationList.get(i).ColumnList.get(j).Name)).get(1);
+					s3 = (pred_file.pred_dict.get(s.RelationList.get(i).ColumnList.get(j).Name)).get(0);
 					s4 = s.RelationList.get(i).ColumnList.get(j).AdjectiveList.get(k).type;
 					//s5 = s.RelationList.get(i).ColumnList.get(j).AdjectiveList.get(k).adjtype;
 					s5="1";
