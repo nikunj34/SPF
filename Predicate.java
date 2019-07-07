@@ -219,7 +219,73 @@ class Seed{
             	seed_col.add(str);
          }
     }
-    
+public void synGenerator(String name, String col, String ctype, ArrayList<String> ptype, String pred_type){
+        
+        String str="", pred=name + ":";
+        switch(pred_type) {
+        
+            // state -> (S/(S\NP)) ??????????????????
+            case "type1":
+                pred += "<" + ctype + "," + "t" + ">";
+                str = name + " :- " + "N" + " : " + pred;
+                seed_col.add(str);
+                break;
+                
+            case "type2":
+                pred = col + ":";
+                for(int i=0;i<ptype.size();i++) {
+                
+                    pred = pred + "<" + ptype.get(i) + ",";  
+                }
+                
+                pred = pred + ctype;
+                for(int i=0;i<ptype.size();i++){
+                    pred = pred + ">";
+                }
+                
+                str = name + " :- " + "NP/NP" + " : " + "(lambda $0:e (" + pred + " $0))";
+                seed_col.add(str);
+                str = name + " :- " + "S/PP" + " : " + "(lambda $0:e (" + pred + " $0))";
+                seed_col.add(str);
+                break;
+            
+            // density -> N, S/NP   <lo,i> ????????????????????????????
+            case "type3":
+                int p_size = ptype.size();
+                pred = col + ":";
+                for(int i=0; i<p_size; i++) {
+                
+                    String s = "<" + ptype.get(i) + ",";
+                    pred += s;
+                }
+                pred += "<" + ctype + ",t" + ">";
+                for(int i=0; i<p_size; i++) {
+                
+                    pred += ">";
+                }
+                
+                str = name + " :- " + "(S\\NP)/NP" + " : " + "(lambda $0:e (lambda $1:e (" + pred + " $1 $0)))";
+                seed_col.add(str);
+                break;
+            case "type4":
+            	
+                pred = col + ":";
+                for(int i=0; i<ptype.size(); i++) {
+                
+                    String s = "<" + ptype.get(i) + ",";
+                    pred += s;
+                }
+                pred += "<t," + ctype + ">";
+                for(int i=0; i<ptype.size(); i++) {
+                    
+                    pred += ">";
+                }
+            	str = name + " :- " + "NP/PP : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "($0 $1))))";   
+            	seed_col.add(str);
+            	str = name + " :- " + "NP/(S\\NP) : " + "(lambda $0:<e,t> (lambda $1:e (" + pred + " $1 " + "($0 $1))))";
+            	seed_col.add(str);
+         }
+    }
     public ArrayList<String> seed_adj = new ArrayList<String>(); 
     public void Adjectives(String adj, String level, String pred, String greater, String max){
         String entry = "";

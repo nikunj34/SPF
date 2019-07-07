@@ -356,7 +356,7 @@ public class Generator {
 		
 	}
 	public void Synonym_Seed(Schema s, Seed seed_file, Predicate pred_file) {
-		String s1,s2,s3;
+		String s1,s2,s3,s5;
 		ArrayList<String> s4 = new ArrayList<String>();
 		for(int i=0;i<s.RelationList.size();i++) {
 			for(int j=0;j<s.RelationList.get(i).ColumnList.size();j++) {
@@ -368,11 +368,12 @@ public class Generator {
 					s2 = s.TrackType.get(s2).toString();
 					s3 = s.TrackType.get(s3).toString();
 					s4.add(s3);
+					s5 = s.RelationList.get(i).ColumnList.get(j).Name;
 					//System.out.println(s4);
-					seed_file.ColGenerator(s1,s2,s4,"type2");
-					seed_file.ColGenerator(s1,s2,s4,"type3");
+					seed_file.synGenerator(s1,s5,s2,s4,"type2");
+					seed_file.synGenerator(s1,s5,s2,s4,"type3");
 					if((s.RelationList.get(i).ColumnList.get(j).VarType).equals("Category")) {
-						seed_file.ColGenerator(s1,s2,s4,"type1");
+						seed_file.synGenerator(s1,s5,s2,s4,"type1");
 					}
 				
 				}   
