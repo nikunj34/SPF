@@ -30,11 +30,17 @@ public class Generator {
 		}
 
         if(next.equals("t"))
-			next = "u";
+			next = "v";
 		if(next.equals("e"))
 			next = "f";
 		if(next.equals("i"))
 			next = "j";
+		if(next.equals("c"))
+			next = "d";
+		if(next.equals("s"))
+			next = "u";
+		if(next.equals("r"))
+			next = "w";
 		
 		lastsymb = next;
 		//System.out.println("aa "+lastsymb);
@@ -282,7 +288,7 @@ public class Generator {
 			        String VerbType = VerbList.get(k).VerbType;
 			        
 			        if(VarType=="category")
-			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(1), pred_file.pred_dict.get(ColName).get(2));
+			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(1), pred_file.pred_dict.get(ColName).get(3));
 			        
 			        else
 			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(0), pred_file.pred_dict.get(ColName).get(1));
