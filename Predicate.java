@@ -11,6 +11,7 @@ class Predicate{
         String pred1 = name + ":";
         String pred2 = name + ":";
         String pred3 = name + ":";
+        String pred4 = name + ":";
         
         ArrayList<String> track_name = new ArrayList<String>();
         
@@ -47,10 +48,12 @@ class Predicate{
             }
             
             this.predicate.add(pred3);
-            
+            pred4 = name + ":" + "<" + ptype + ",<" + "t," + ctype + ">>";
+            this.predicate.add(pred4);
             track_name.add(pred1);
             track_name.add(pred2);
             track_name.add(pred3);
+            track_name.add(pred4);
             
             pred_dict.put(name, track_name);
         }
@@ -83,9 +86,12 @@ class Predicate{
                 pred3 += ">";
             }
             this.predicate.add(pred3);
+            pred4 = name + ":" + "<" + ptype + ",<" + "t," + ctype + ">>";
+            this.predicate.add(pred4);
             
             track_name.add(pred2);
             track_name.add(pred3);
+            track_name.add(pred4);
             
             pred_dict.put(name, track_name);
         

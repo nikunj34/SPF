@@ -288,7 +288,7 @@ public class Generator {
 			        String VerbType = VerbList.get(k).VerbType;
 			        
 			        if(VarType=="category")
-			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(1), pred_file.pred_dict.get(ColName).get(3));
+			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(1), pred_file.pred_dict.get(ColName).get(2));
 			        
 			        else
 			        	seed_file.VerbGenerator(VerbName, VerbType, ColName, pred_file.pred_dict.get(ColName).get(0), pred_file.pred_dict.get(ColName).get(1));
