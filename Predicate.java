@@ -115,6 +115,7 @@ class Constant{
 class NpList{
     
     ArrayList<String> np_list = new ArrayList<String>();
+    ArrayList<String> np_list1 = new ArrayList<String>();
     
     public void NpGenerator(String value, String c_type, String col_value, String pos_tag, String ptype) {
     
@@ -122,10 +123,10 @@ class NpList{
 		this.np_list.add(str);
 		str = "";
 		str = value + " :- " + pos_tag + " : " + "(pkey_retriever:<" + c_type + "," + ptype + "> " + col_value + "):" + ptype;
-		this.np_list.add(str);
+		this.np_list1.add(str);
     }
 }
-
+	
 class Seed{
     
     ArrayList<String> seed_verb = new ArrayList();
@@ -269,12 +270,13 @@ class Seed{
     
 
 	
-	public ArrayList<String> complete_seed = new ArrayList<String>();
+		public ArrayList<String> complete_seed = new ArrayList<String>();
     	public void comseed(){
 		complete_seed.addAll(this.seed_verb);
 		complete_seed.addAll(this.seed_col);
 		complete_seed.addAll(this.seed_adj);
 		complete_seed.addAll(this.seed_prep);
+		
 		
 	}
 }

@@ -261,6 +261,7 @@ public class Main {
 	genObj.Synonym_Seed(SchemaObj, seed_file, pred_file);
 	genObj.Preposition_seed(SchemaObj, seed_file, pred_file);
 	seed_file.comseed();
+	seed_file.complete_seed.addAll(np_file.np_list1);
 	System.out.println(SchemaObj.TrackType);
 
 	genObj.generate_file("src/ccg/geo.pred.ont.txt", pred_file.predicate);
