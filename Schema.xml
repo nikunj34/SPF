@@ -348,14 +348,23 @@
                         <verb>
                             <VerbName>have</VerbName>
                             <VerbType>transitive</VerbType>
+			</verb>
+			<verb>
 			    <VerbName>flow</VerbName>
                             <VerbType>transitive</VerbType>
+</verb>
+<verb>
 		            <VerbName>flows</VerbName>
                             <VerbType>transitive</VerbType>
+</verb>
+<verb>
 			    <VerbName>run</VerbName>
                             <VerbType>transitive</VerbType>
+</verb>
+<verb>
 			    <VerbName>runs</VerbName>
                             <VerbType>transitive</VerbType>
+
                         </verb>
 	                </VerbList>
 	                <AdjectiveList>
