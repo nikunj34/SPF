@@ -388,8 +388,8 @@ public class Generator {
 					s1 = s.RelationList.get(i).ColumnList.get(j).PrepositionList.get(k).name;
 					s2 = s.TrackType.get(s.RelationList.get(i).PrimaryDetails.Type).toString();
 					s3 = s.TrackType.get(s.RelationList.get(i).ColumnList.get(j).Type).toString();
-					s4 = "pkeyretriever:<" + s3 + "," + s2 + ">";
-					s5 = "setretriever:<" + s2 + ",<" + s3 + ",t>>";
+					s4 = "pkey_retriever:<" + s3 + "," + s2 + ">";
+					s5 = "set_retriever:<" + s2 + ",<" + s3 + ",t>>";
 					seed_file.Preposition(s1,s4,s5,s2);
 					
 				}
