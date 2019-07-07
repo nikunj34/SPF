@@ -258,7 +258,7 @@ class Seed{
     	entry += prep + " :- PP/NP : (lambda $0:e (" + pred1 + " $0))";//returns pkey, may be not required
     	seed_prep.add(entry);
 		entry = "";
-		entry += prep + " :- PP/NP : (lambda $0:<e,e> (lmabda $1 (" + pred1 + " ($0 $1))))";
+		entry += prep + " :- PP/NP : (lambda $0:<e,e> (lambda $1 (" + pred1 + " ($0 $1))))";
     	seed_prep.add(entry);
     	entry = "";
         entry += prep + " :- PP/NP : (lambda $0:e (lambda $1:"+ ptype + " (" + pred2 + " $1 $0)))";//here type 4 will be used
